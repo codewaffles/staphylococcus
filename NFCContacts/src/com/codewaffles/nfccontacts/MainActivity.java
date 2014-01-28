@@ -21,7 +21,7 @@ private Intent service;
 		
 		setContentView(R.layout.activity_main);
 		service = new Intent(this, NFCContacts.class);
-	
+		
 		Button btn_start = (Button) findViewById(R.id.btn_start);
 		Button btn_stop = (Button) findViewById(R.id.btn_stop);
 		
