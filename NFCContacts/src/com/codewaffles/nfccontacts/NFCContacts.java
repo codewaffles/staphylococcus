@@ -1,10 +1,9 @@
 package com.codewaffles.nfccontacts;
 
 import android.app.IntentService;
-import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
-import android.widget.Toast;
+
 
 public class NFCContacts extends IntentService {
 
