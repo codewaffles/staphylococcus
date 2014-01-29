@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="78dp"
-        android:text="Start Service" />
+        android:text="@string/start_service" />
 
     <Button
         android:id="@+id/btn_stop"
@@ -24,6 +24,6 @@
         android:layout_below="@+id/btn_start"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:text="Stop Service" />
+        android:text="@string/stop_service" />
 
 </RelativeLayout>
