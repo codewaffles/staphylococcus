@@ -5,4 +5,12 @@
 
     <string name="guardar">Guardar</string>
 
+    <string name="nombre_ap">Nombre y Apellidos</string>
+
+    <string name="telefono">Teléfono</string>
+
+    <string name="email">Email</string>
+
+    <string name="direccion">Dirección</string>
+
 </resources>

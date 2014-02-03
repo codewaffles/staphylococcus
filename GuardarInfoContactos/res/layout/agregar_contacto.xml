@@ -7,31 +7,47 @@
         android:id="@+id/nombreAp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"      
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:hint="@string/nombre_ap"
+        style="@style/cuadroTexto" />
 
     <EditText
         android:id="@+id/telefono"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:hint="@string/telefono"
+        style="@style/cuadroTexto" />
     
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        style="@style/cuadroTexto" />
 
     <EditText
         android:id="@+id/direccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPostalAddress"
-        android:lines="2" />
+        android:hint="@string/direccion"
+        android:lines="2"
+        style="@style/cuadroTexto" />
 
     <Button
         android:id="@+id/guardar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="eventoGuardar"
         android:text="@string/guardar" />
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
 
 </LinearLayout>
